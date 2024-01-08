@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:foreground="?attr/selectableItemBackground">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/tourattr_image"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="24dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/agra"
+        app:shapeAppearanceOverlay="@style/ShapeableImageView_ALLRoundedCorners" />
+
+    <TextView
+        android:id="@+id/tourattr_name"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="171dp"
+        android:layout_marginEnd="184dp"
+        android:layout_marginBottom="84dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Agra"
+        android:textColor="@color/black"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/tourattr_state"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="152dp"
+        android:layout_marginEnd="139dp"
+        android:layout_marginBottom="47dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Uttar Pradesh"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="19dp"
+        app:cardBackgroundColor="#D2C1B5B5"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="0dp" >
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/arrow" />
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
